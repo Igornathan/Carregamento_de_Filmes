@@ -29,6 +29,7 @@ function displayMovie(movies) {
         movieElement.innerHTML = `
         <img src="http://image.tmdb.org/t/p/w500${movie.poster_path}" alt="">
         <h2> ${movie.title} </h2>
+        <h2> ${movie.popularity} </h2>
         `;
 
         moviesContainer.appendChild(movieElement);
